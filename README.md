@@ -1,6 +1,4 @@
-Here’s the updated clean version with `kids` removed:
 
----
 
 **# Roblox Theme List (from core script)**
 
