@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox Classic Theme Forever",
+  "version": "1.0",
+  "description": "Automatically sets and keeps Roblox classic theme forever",
+  "host_permissions": [
+    "https://www.roblox.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.roblox.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
